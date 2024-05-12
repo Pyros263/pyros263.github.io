@@ -453,7 +453,9 @@ button {
 }
 
 .about .about_img figure {
-     margin: 0;
+    margin: 0;
+    width: 268px; 
+    height: 339px;
 }
 
 .about .titlepage {
@@ -847,6 +849,7 @@ ul.location_icon li a {
 
 .text {
     text-align: left; /* Alineación del texto */
+    vertical-align: top;
 }
 
 .lista > li {
@@ -862,9 +865,18 @@ table {
 }
 
 th, td {
-    border: 1px solid black; /* Borde de las celdas */
+    border: none; /* Borde de las celdas */
     padding: 8px; /* Espacio interno de las celdas */
     text-align: center; /* Alineación del texto */
+}
+
+.border{
+    border: 5px /* Borde de las celdas */
+}
+
+.text_td{
+    text-align: left;
+    border: 10px
 }
 
 img {
